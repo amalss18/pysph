@@ -255,6 +255,7 @@ class DamBreak2D(Application):
 
     def post_process(self, info_fname):
         self.read_info(info_fname)
+
         if len(self.output_files) == 0:
             return
 
